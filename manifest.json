@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Auto Classify",
+  "version": "1.2.0",
+  "description": "Auto-label references with a short category, add a Type column, and group items into same-named collections. Compatible with Zotero 8, 9 and 10.",
+  "author": "WorkBuddy",
+  "homepage_url": "https://www.zotero.org/",
+  "applications": {
+    "zotero": {
+      "id": "auto-classify@example.com",
+      "update_url": "https://example.com/zotero-auto-classify/updates.json",
+      "strict_min_version": "8.0",
+      "strict_max_version": "10.999"
+    }
+  }
+}
