@@ -1,0 +1,16 @@
+转录组|RNA-seq,RNA sequencing,transcriptome,transcriptomic,转录组,转录本,差异表达,DEG,表达谱,单细胞,scRNA
+基因组|genome,genomic,全基因组,基因组,assembly,组装,注释,annotation,泛基因组,pangenome
+抗病基因|R gene,NLR,NBS-LRR,resistance gene,抗病基因,抗性基因,Tm-2,effector,免疫受体,无毒基因
+病毒互作|virus,viral,ToBRFV,TMV,ToMV,病毒,coat protein,movement protein,侵染,复制酶,viroid
+真菌病害|Botrytis,灰霉,真菌,fungus,fungal,Phytophthora,疫霉,白粉,枯萎,necrotroph
+群体遗传|GWAS,QTL,群体,population,遗传多样性,连锁不平衡,群体结构,选择清扫,germplasm
+分子标记|marker,SSR,KASP,分子标记,连锁图谱,图位克隆,finemapping,基因定位,BSA-seq
+基因编辑|CRISPR,Cas9,基因编辑,敲除,knockout,转基因,overexpression,过表达,VIGS,突变体
+表观调控|epigenetic,甲基化,methylation,组蛋白,histone,染色质,chromatin,小RNA,miRNA,lncRNA
+代谢调控|metabolome,代谢,metabolite,次生代谢,生物碱,番茄碱,挥发物,hormone,水杨酸,茉莉酸
+生信分析|bioinformatics,生信,算法,pipeline,流程,机器学习,深度学习,数据库,预测模型,软件工具
+病原鉴定|pathogen,病原,分离鉴定,检测,diagnostic,PCR,qPCR,ELISA,测序鉴定,病害诊断
+育种应用|breeding,育种,品种,栽培,驯化,domestication,种质,产量,品质,田间
+功能验证|functional,功能验证,互作,interaction,酵母双杂,BiFC,亚细胞定位,表型,phenotype
+综述进展|review,综述,进展,展望,perspective,meta-analysis,荟萃分析
+其他主题|其他,未分类
