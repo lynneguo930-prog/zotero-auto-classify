@@ -1,0 +1,60 @@
+#autoclassify-prefs-root groupbox {
+  margin-bottom: 14px;
+}
+
+#autoclassify-prefs-root .ac-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 6px 0;
+}
+
+#autoclassify-prefs-root .ac-label {
+  display: inline-block;
+  min-width: 96px;
+  font-weight: 600;
+}
+
+#autoclassify-prefs-root .ac-input {
+  flex: 1;
+  min-width: 220px;
+  padding: 3px 6px;
+}
+
+#autoclassify-prefs-root .ac-textarea {
+  width: 100%;
+  min-height: 230px;
+  margin-top: 6px;
+  padding: 6px 8px;
+  font-family: monospace;
+  font-size: 12px;
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+
+#autoclassify-prefs-root .ac-hint,
+#autoclassify-prefs-root .ac-note {
+  color: #666;
+  font-size: 12px;
+}
+
+#autoclassify-prefs-root .ac-indent {
+  margin: 0 0 6px 104px;
+}
+
+#autoclassify-prefs-root .ac-buttons {
+  margin-top: 12px;
+}
+
+#autoclassify-prefs-root .ac-buttons button {
+  padding: 4px 12px;
+}
+
+#autoclassify-prefs-root .ac-status {
+  min-height: 20px;
+  margin-top: 8px;
+  font-size: 12px;
+}
+
+#autoclassify-prefs-root .ac-status.ac-ok { color: #1a7f37; }
+#autoclassify-prefs-root .ac-status.ac-bad { color: #c0392b; }
