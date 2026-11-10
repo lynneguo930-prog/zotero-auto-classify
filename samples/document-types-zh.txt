@@ -1,0 +1,11 @@
+综述|review,综述,进展,survey,systematic review,述评,文献回顾
+方法|method,methods,protocol,方法,技术,technique,assay,pipeline,workflow,流程,标准,standard
+数据|data,dataset,database,数据,数据集,资源,repository,知识库,atlas
+评论|comment,letter,评论,来信,correspondence,读者来信
+观点|perspective,opinion,观点,社论,editorial,commentary,述评
+案例|case report,case,案例,病例,个案,临床
+荟萃|meta-analysis,荟萃,荟萃分析,meta分析
+指南|guideline,guide,指南,共识,consensus,专家共识
+书评|book review,book,书评,新书
+新闻|news,新闻,报道,访谈
+其他主题|其他,未分类
