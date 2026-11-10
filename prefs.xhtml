@@ -1,0 +1,56 @@
+<vbox id="autoclassify-prefs-root">
+  <groupbox>
+    <label><html:h2>自动分类 · 设置</html:h2></label>
+    <html:div class="ac-note">
+      不填 API Key 也能用：插件会自动退回本地关键词规则，完全离线。
+    </html:div>
+  </groupbox>
+
+  <groupbox>
+    <label><html:h2>模型接口（OpenAI 兼容格式）</html:h2></label>
+    <html:div class="ac-row">
+      <html:label class="ac-label" for="ac-llm-url">接口地址</html:label>
+      <html:input id="ac-llm-url" class="ac-input" type="text" spellcheck="false" />
+    </html:div>
+    <html:div class="ac-row">
+      <html:label class="ac-label" for="ac-api-key">API Key</html:label>
+      <html:input id="ac-api-key" class="ac-input" type="password" spellcheck="false" />
+    </html:div>
+    <html:div class="ac-row">
+      <html:label class="ac-label" for="ac-model">模型名</html:label>
+      <html:input id="ac-model" class="ac-input" type="text" spellcheck="false" />
+    </html:div>
+    <html:div class="ac-row">
+      <html:label class="ac-label" for="ac-use-llm">启用模型</html:label>
+      <html:input id="ac-use-llm" type="checkbox" />
+      <html:span class="ac-hint">关掉后完全走本地规则</html:span>
+    </html:div>
+  </groupbox>
+
+  <groupbox>
+    <label><html:h2>归类方式</html:h2></label>
+    <html:div class="ac-row">
+      <html:label class="ac-label" for="ac-parent">父文件夹名</html:label>
+      <html:input id="ac-parent" class="ac-input" type="text" />
+    </html:div>
+    <html:div class="ac-hint ac-indent">类别文件夹建在它下面；留空则直接建在文献库根目录。留着「自动分类」不会弄乱你原有的目录。</html:div>
+    <html:div class="ac-row">
+      <html:label class="ac-label" for="ac-auto-new">新文献自动分类</html:label>
+      <html:input id="ac-auto-new" type="checkbox" />
+      <html:span class="ac-hint">导入新文献后自动打标签并归入文件夹</html:span>
+    </html:div>
+  </groupbox>
+
+  <groupbox>
+    <label><html:h2>类别表</html:h2></label>
+    <html:div class="ac-hint">每行一条，格式：<html:code>类别名|关键词1,关键词2,...</html:code>　类别名必须是 2–5 个汉字。改完点「保存设置」。</html:div>
+    <html:textarea id="ac-categories" class="ac-textarea" rows="16" spellcheck="false"></html:textarea>
+  </groupbox>
+
+  <html:div class="ac-row ac-buttons">
+    <html:button id="ac-save" type="button">保存设置</html:button>
+    <html:button id="ac-restore" type="button">恢复默认类别</html:button>
+    <html:button id="ac-test" type="button">测试模型连接</html:button>
+  </html:div>
+  <html:div id="ac-status" class="ac-status"></html:div>
+</vbox>
